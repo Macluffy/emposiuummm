@@ -1,0 +1,27 @@
+.section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/cta-bg.jpg);
+        background-size:auto;
+        width: 130rem;
+        height: 50rem;
+        background-position:center;
+        h1{
+            color: white;
+            font-size: 3rem;
+            margin: 0;
+            text-align: center;
+        }
+        button{
+            background-color:  rgb(255, 51, 0);
+                color: white;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                width: 10rem;
+        }
+}

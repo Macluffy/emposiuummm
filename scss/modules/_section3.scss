@@ -1,0 +1,108 @@
+.section3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        margin-top: 3rem;
+    }
+    div{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+        .article1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 20rem;
+            .pascal{
+                display: none;
+                width: 18rem;
+                position: absolute;
+                bottom: 88px;
+                transition: 1s;
+                height: 0;
+                
+                .morice{
+                    width: 10rem;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.616);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        transition: 1s;
+                        color: white;
+                        
+                    }
+                }
+                .pedro{
+                    width: 10rem;
+                    height: 100%;
+                    background-color: rgba(255, 0, 0, 0.555);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        color: white;
+                    }
+                }
+            }
+            div{
+                display: flex;
+                width: 80%;
+                .divun{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        background-color:rgb(255, 51, 0); 
+                    border-radius: 50%;
+                    width:3rem;
+                    height: 3rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    }
+                    
+                }
+                .divdeux{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .premierp1{
+                        margin: 0;
+                        font-weight: bolder;
+                        
+                    }
+                    .deuxiemep1{
+                        margin:0;
+                        font-weight: bolder;
+                        color: rgb(255, 51, 0);
+                        span{
+                            color:rgb(73, 73, 73);
+                        }
+                        
+                    }
+
+                }
+            }
+            .img1{
+                width: 18rem;
+                margin-bottom: 1rem;
+                }
+            .premierp{
+                margin: 0;
+                font-weight: bolder;
+            }
+            .deuxiemep{
+                margin:0;
+                font-weight: bolder;
+                color: rgb(255, 51, 0);
+            }
+        }
+    }
+}

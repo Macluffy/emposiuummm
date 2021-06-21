@@ -1,0 +1,52 @@
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+    padding-top: 3rem;
+    div{
+        margin-top: 1rem;
+        display: flex;
+        width: 70rem;
+        .firstdiv1{
+            display: flex;
+            flex-direction: column;
+            width: 100rem;
+            justify-content: center;
+            
+            h1{
+                color: rgb(255, 51, 0);
+                font-size: 3rem;
+                margin: 0;
+                height: 3rem;
+            }
+            .secondh1{
+                font-size: 5rem;
+                color: black;
+                height: 7rem;
+                font-weight: bold
+                
+            }
+            p{
+                font-size:1rem ;
+            }
+            button{
+                background-color:  rgb(255, 51, 0);
+                color: white;
+                height: 40px;
+                border: none;
+                border-radius: 15px;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                width: 10rem;
+            }
+
+        }
+        .seconddiv1{
+            width: 60rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

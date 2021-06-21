@@ -1,0 +1,99 @@
+.section5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    margin-top: 3rem;
+  }
+  .premierh {
+    display: flex;
+    width: 68%;
+    justify-content: start;
+    overflow-x: hidden;
+    .caroussel {
+      width: 1000px;
+      display: flex;
+      justify-content: end;
+      transition: 1s;
+      .article1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        margin: 2rem;
+        .divdiv {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          .divun {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            p {
+              background-color: rgb(255, 51, 0);
+              border-radius: 50%;
+              width: 3rem;
+              height: 3rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+          .divdeux {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 70%;
+            .premierp1 {
+              margin: 0;
+              font-weight: bolder;
+            }
+            .deuxiemep1 {
+              margin: 0;
+              font-weight: bolder;
+              color: rgb(255, 51, 0);
+              span {
+                color: rgb(73, 73, 73);
+              }
+            }
+          }
+        }
+        .img1 {
+          width: 18rem;
+          margin-bottom: 1rem;
+        }
+        .premierp {
+          margin: 0;
+          font-weight: bolder;
+        }
+        .deuxiemep {
+          margin: 0;
+          font-weight: bolder;
+          color: rgb(255, 51, 0);
+        }
+      }
+    }
+    
+    }
+  }
+  .divbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btnc {
+      border-radius: 50%;
+      border: 1px solid black;
+      margin: 1rem;
+      height: 25px;
+      width: 25px;
+    }
+    .btnc:hover{
+      background-color: gray;
+    }
+    .btnc:focus{
+      border: rgb(65, 62, 62) solid 3px;
+    }
+}

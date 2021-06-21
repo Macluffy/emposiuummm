@@ -1,0 +1,63 @@
+.section2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    .div1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/services/service-1.jpg);
+        background-size:auto;
+        width: 35rem;
+        height: 20rem;
+        margin: 1rem;
+        background-position:center;
+        h1{
+            color: white;
+            font-size: 2rem;
+            margin: 0;
+            width: 18rem;
+            border-bottom: solid 2px white;
+            text-align: center;
+        }
+    }
+    .div2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/services/service-2.jpg);
+        background-size: cover;
+        width: 35rem;
+        height: 20rem;
+        margin: 1rem;
+        background-position: center;
+        h1{
+            color: white;
+            font-size: 2rem;
+            margin: 0;
+            width: 18rem;
+            border-bottom: solid 2px white;
+            text-align: center;
+        }
+    }
+    .div3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/services/slider-3.jpg);
+        background-size: cover;
+        width: 35rem;
+        height: 20rem;
+        margin: 1rem;
+        background-position: center;
+        h1{
+            color: white;
+            font-size: 2rem;
+            margin: 0;
+            width: 18rem;
+            border-bottom: solid 2px white;
+            text-align: center;
+        }
+    }
+}
